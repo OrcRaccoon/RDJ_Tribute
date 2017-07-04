@@ -1,0 +1,22 @@
+{
+  "name": "template",
+  "description": "Devil boilerplate for html+js+css apps",
+  "main": "",
+  "authors": [
+    "Karina Udaltsova <karina.udaltsova@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^7.0.0",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
