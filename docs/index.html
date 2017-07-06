@@ -22,10 +22,21 @@
     <header class="header">
         <div class="container">
             <div class="row">
+                <section class="page-header">
+                    <p class="page-header__heading">Robert Downey jr</p>
+                    <p class="page-header__text">Tribute page</p>
+                    <div class="page-header__nav">
+                        <a href="#section-quote">Quotes</a>
+                        <span>|</span>
+                        <a href="#main">About</a>
+                        <span>|</span>
+                        <a href="#section-social">Social media</a>
+                    </div>
+                </section>
                 <!--===================================
-=            section-quote            =
-====================================-->
-                <section class="section-quote section-bg">
+                    =            section-quote            =
+                    ====================================-->
+                <section id="section-quote" class="section-quote section-bg">
                     <div class="col-xs-12">
                         <div class="row">
                             <div class="col-xs-12 col-md-6 col-md-offset-6">
@@ -71,8 +82,8 @@
         <div class="container">
             <div class="row">
                 <!--===================================
-=            story-section            =
-====================================-->
+                    =            story-section            =
+                    ====================================-->
                 <div class="col-xs-12 col-md-6">
                     <div class="story-section story-section__biography">
                         <p>&laquo;I take some pride in…representing myself exactly how I would like to have my son remember me to his son&raquo;</p>
@@ -100,11 +111,11 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 ">
-                    <section class="section-social">
-                    <div class="section-social__promo">
-                    <img class="section-social__promo-ring" src="img/pointer.png" alt="Robert Downey Jr social media">
-<button type="button" class="section-social__promo-btn">Social media</button>
-                    </div>
+                    <section id="section-social" class="section-social">
+                        <div class="section-social__promo">
+                            <img class="section-social__promo-ring" src="img/pointer.png" alt="Robert Downey Jr social media">
+                            <button type="button" class="section-social__promo-btn">Social media</button>
+                        </div>
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
                             <li role="presentation" class="active">
@@ -117,7 +128,6 @@
                                 <a class="icon-instagram" href="#tab-instagram" aria-controls="tab-instagram" role="tab" data-toggle="tab"></a>
                             </li>
                         </ul>
-
                         <!-- Tab panes -->
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="tab-facebook">
@@ -223,7 +233,9 @@
                                         </div>
                                     </blockquote>
                                     <div class="instagram__follow-btn">
-                                        <a href="https://www.instagram.com/robertdowneyjr/" class="icon-instagram follow_toolbox" target="_blank"><p>Follow</p></a>
+                                        <a href="https://www.instagram.com/robertdowneyjr/" class="icon-instagram follow_toolbox" target="_blank">
+                                            <p>Follow</p>
+                                        </a>
                                     </div>
                                 </section>
                             </div>
@@ -233,8 +245,8 @@
             </div>
         </div>
         <!--===================================
-=            Modals           =
-====================================-->
+        =            Modals           =
+        ====================================-->
         <!-- Modal for Biography -->
         <div class="modal fade biography" id="Biography" tabindex="-1" role="dialog" aria-labelledby="BiographyLabel">
             <div class="modal-dialog" role="document">
@@ -551,9 +563,10 @@
         </div>
         <!--  -->
     </main>
-    <!-- Main.js (+jquery, bootstrap) -->
-    <div id="fb-root"></div>
+    <footer class="page-footer">
 
+    </footer>
+    <!-- Main.js (+jquery, bootstrap) -->
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
     <script>
